@@ -7,11 +7,11 @@
 }
 
 body {
-  font-family: 'Fredoka', sans-serif;
   overflow: hidden;
 }
 
 .landing-container {
+  font-family: 'Fredoka', sans-serif;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -43,6 +43,7 @@ body {
 }
 
 .content-wrapper {
+  font-family: 'Fredoka', sans-serif;
   z-index: 10;
   text-align: center;
   width: 100%;
@@ -54,6 +55,7 @@ body {
 
 /* --- Header & Logo --- */
 .presenter-header {
+  font-family: 'Fredoka', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +70,7 @@ body {
 }
 
 .club-badge {
+  font-family: 'Fredoka', sans-serif;
   background: transparent;
   border: 2px solid rgba(255,255,255,0.9);
   padding: 8px 16px;
@@ -102,6 +105,7 @@ body {
 }
 
 .event-subtitle {
+
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 10px;
@@ -120,6 +124,7 @@ body {
 
 /* --- WOODY FORM STYLE --- */
 .login-form {
+
   display: flex;
   justify-content: center;
   /* TILT the entire form */
