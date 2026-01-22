@@ -4,16 +4,17 @@ import WordleClone from "./games/Wordle";
 import Emoji from "./games/Emoji";
 import MemeDecoder from "./games/MemeDecoder";
 import MonkeyType from "./games/Monkeytype";
+import LandingPage from "./LandingPage";
 
 function App() {
   return (
     <Routes>
       {/* <Route path="/" element={<Home />} /> */}
-
+      <Route path="/" element={<LandingPage />} />
       <Route path="/wordle" element={<WordleClone />} />
       <Route path="/Emoji" element={<Emoji />} />
       <Route path="/MemeDecoder" element={<MemeDecoder />} />
-      <Route path="/wordle" element={<WordleClone />} />
+      
       <Route path="/MonkeyType" element={<MonkeyType />} />
     </Routes>
   );
